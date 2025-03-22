@@ -1,4 +1,4 @@
-//package com.Management.Employee;
+
 
 public class Employee{
 	private String name;
@@ -24,6 +24,6 @@ public class Employee{
 	}
 
 	public String toString(){
-		return String.format("\nPerson Details:\nName: %s\nDesignation: %s\n", name, designation);
+		return String.format("\n\nPerson Details:\nName: %s\nDesignation: %s\n", name, designation);
 	}
 }
